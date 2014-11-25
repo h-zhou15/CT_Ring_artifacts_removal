@@ -17,11 +17,11 @@ hold off
 
 figure,
 a = subplot(1,2,1);
-
 imshow(f_0);
-title(a,'Original image');
+title(a,'Original dark-field image');
+axis off
 
 b = subplot(1,2,2);
-
 imshow(f_corr);
 title(b,'Image with ring artifact removal');
+axis off
