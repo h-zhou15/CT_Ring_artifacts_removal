@@ -1,6 +1,6 @@
 % clear
 % close all
-% load('f_1.mat');
+load('f_1.mat');
 para.T_min =0.000; % lower threshold of ring artifacts
 para.T_max =0.04; % higher threshold of ring artifacts
 para.M_rad = 80 ; % empirical filter width
